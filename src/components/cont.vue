@@ -1,12 +1,13 @@
 <template>
     <div class="container-fluid">
        <div class="row">
-        <div class="col-6" id="intro">
+        <div class="col-6 col-m-6" id="intro">
             <div class="intro_texts">
-                <h3> Hello, Im Kojo</h3>
+                <h3> Hello, I'm Kojo</h3>
                 <h1> Full Stack <br> Developer</h1>
                 <h3> based in Ghana </h3>
-                <a href="#" class="resume"> Resume</a>
+                <br>
+                <a href="https://drive.google.com/file/d/1GP1aWiR2lFgBuL8XsHVcSRxIJ06aWhBt/view?usp=sharing"  target="_blank" class="resume"> Resume 🚀 </a>
             </div>
         </div>
         <div class="col-6">
@@ -14,7 +15,7 @@
         </div>
        </div>
        <div class="row">
-        <div class="col-12">
+        <div class="col-12 col-m-12">
             <div class="about">
                 <h1> about. </h1>
             <P>This portfolio showcases my professional work, skills, 
@@ -28,7 +29,7 @@
         <div class="row">
         <div class="col-12">
             <div class="Project">
-                <h1> Projects. </h1>
+                <h1> projects. </h1>
             <P>This portfolio showcases my professional work, skills, 
                 and accomplishments as a highly motivated and versatile individual. 
                 It encompasses a wide range of projects, including graphic designs, 
@@ -100,13 +101,24 @@ export default {
 <style scoped>
 
 .resume {
-    margin-top:30px;
-    padding: 20px;
-    border: solid;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #474306;
 }
+
+.intro_texts{
+    margin-top: 150px ;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.resume:hover{
+    color:#03045E;
+}
+
 .pic {
     width: auto;
-    height: 500px;
+    height: 700px;
 }
 
 .contact_pic{
