@@ -12,7 +12,7 @@ export default {
   name: 'App',
   components: {
     navbar,cont
-  }
+  },
 }
 </script>
 
@@ -23,7 +23,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   background-color: #FBF8CC;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #03045E;
 }
 </style>
