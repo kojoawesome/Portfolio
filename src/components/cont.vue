@@ -6,7 +6,7 @@
                 <h3> Hello, Im Kojo</h3>
                 <h1> Full Stack <br> Developer</h1>
                 <h3> based in Ghana </h3>
-                <button> Resume </button>
+                <a href="#" class="resume"> Resume</a>
             </div>
         </div>
         <div class="col-6">
@@ -80,11 +80,7 @@
 
     <div class="Project">
                 <h1> Contact. </h1>
-            <P>This portfolio showcases my professional work, skills, 
-                and accomplishments as a highly motivated and versatile individual. 
-                It encompasses a wide range of projects, including graphic designs, 
-                web development, written content, and more.
-            </P>
+                
             </div>
     </div>
 </template>
@@ -102,6 +98,12 @@ export default {
 </script>
 
 <style scoped>
+
+.resume {
+    margin-top:30px;
+    padding: 20px;
+    border: solid;
+}
 .pic {
     width: auto;
     height: 500px;
