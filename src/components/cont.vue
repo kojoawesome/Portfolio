@@ -30,10 +30,9 @@
         <div class="col-12">
             <div class="Project">
                 <h1> projects. </h1>
-            <P>This portfolio showcases my professional work, skills, 
-                and accomplishments as a highly motivated and versatile individual. 
-                It encompasses a wide range of projects, including graphic designs, 
-                web development, written content, and more.
+            <P>Here you would see some projects i have worked on previously.
+              thsese projects would be continuesly be updated so keep visiting my 
+              page so you dont miss out on my new projects. 
             </P>
             </div>
         </div>
@@ -79,8 +78,14 @@
 </div>    
     </div>
 
-    <div class="Project">
-                <h1> Contact. </h1>
+    <div class="contact"  style="margin-bottom: 0px;">
+                <div class="row">
+                  <div class="col-6">
+                    <h1> Contact. </h1>
+                    <a href="mailto:kojokumi16.kk@gmail.com">kojokumi16.kk@gmail.com</a>
+                    <a href="https://github.com/kojoawesome" target="_blank">Github</a>
+                  </div>
+                </div>
                 
             </div>
     </div>
@@ -100,7 +105,7 @@ export default {
 
 <style scoped>
 
-.resume {
+.resume{
     padding-top: 10px;
     text-decoration: none;
     color: #474306;
@@ -112,7 +117,7 @@ export default {
     flex-direction: column;
     align-content: center;
 }
-.resume:hover{
+.resume:hover, .contact a:hover{
     color:#03045E;
 }
 
@@ -126,11 +131,11 @@ export default {
     height: 450px;
 }
 
-#intro,.about, .Project {
+#intro,.about, .Project , .contact {
     text-align: left;
 }
 
-.about h1, .Project h1{
+.about h1, .Project h1, .contact h1{
     font-weight: bold;
     font-size: 70pt;
     color:#F7F197 ;
@@ -151,18 +156,25 @@ export default {
     font-size: 25pt;
 }
 
-.intro_texts, .about, .Project {
+.intro_texts, .about, .Project, .contact {
     margin-left: 100px;
     margin-bottom: 70px;
 }
 
 .container-fluid {
-    margin: 100px 0px 50px 0px;   
+    margin: 100px 0px 0px 0px;   
 }
 
 .Stacked {
     margin: 10px 100px;
 }
+
+.contact a, .contact{
+  text-decoration: none;
+  display: block;
+  color: #474306;
+}
+
 
 
 </style>
