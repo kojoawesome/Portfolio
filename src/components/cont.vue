@@ -18,10 +18,9 @@
         <div class="col-12 col-m-12">
             <div class="about">
                 <h1> about. </h1>
-            <P>This portfolio showcases my professional work, skills, 
-                and accomplishments as a highly motivated and versatile individual. 
-                It encompasses a wide range of projects, including graphic designs, 
-                web development, written content, and more.
+            <P>A python code enthusiast / creative designer who loves to make an impact. 
+              I'm a self-thought designer, who is passionate about design and 
+              loves to create solutions for complex problems through illustrations and creative coding.
             </P>
             </div>
         </div>
@@ -30,9 +29,11 @@
         <div class="col-12">
             <div class="Project">
                 <h1> projects. </h1>
-            <P>Here you would see some projects i have worked on previously.
-              thsese projects would be continuesly be updated so keep visiting my 
-              page so you dont miss out on my new projects. 
+            <P>This portfolio showcases my professional work, skills, 
+                and accomplishments as a highly motivated and versatile individual. 
+                It encompasses a wide range of projects, including graphic designs, 
+                web development, written content, and more. 
+                Below are some of my projects.
             </P>
             </div>
         </div>
@@ -44,35 +45,17 @@
         <a href="https://www.quarisolutions.com" target="_blank"> <img :src="QuariThumbnail" class="card-img-top" alt="Quari Thumbnail"> </a>
       <div class="card-body">
         <h5 class="card-title" style="text-align: ;">Quari Web</h5>
-        <p class="card-text" style="text-align: left;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text" style="text-align: left;">A global solutions platform providing services that combat Business and Startup challenges</p>
       </div>
     </div>
     
   </div>
   <div class="col">
     <div class="card">
-      <img :src="GFCimage" class="card-img-top" alt="">
+      <a href="https://drive.google.com/file/d/1Hd8WquY8-qHuQRLOLYu7gyDlyLQjmHdG/view?usp=sharing" target="_blank"><img :src="GFCimage" class="card-img-top" alt=""></a>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text" style="text-align: left;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="" class="card-img-top" alt="">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="" class="card-img-top" alt="">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text" style="text-align: left;">Brand identity developed for a philanthropic organization aimed to help people in need.</p>
       </div>
     </div>
   </div>
