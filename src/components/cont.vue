@@ -4,7 +4,7 @@
         <div class="col-6 col-m-6" id="intro">
             <div class="intro_texts">
                 <h3> Hello, I'm Kojo</h3>
-                <h1> Full Stack <br> Developer</h1>
+                <h1> Web Developer <br> & Brand Expect</h1>
                 <h3> based in Ghana </h3>
                 <br>
                 <a href="https://drive.google.com/file/d/1GP1aWiR2lFgBuL8XsHVcSRxIJ06aWhBt/view?usp=sharing"  target="_blank" class="resume"> Resume 🚀 </a>
@@ -40,17 +40,18 @@
         <div class="Stacked">
             <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
-    <div class="card">
-      <img :src="QuariThumbnail" class="card-img-top" alt="Quari Thumbnail">
+      <div class="card">
+        <a href="https://www.quarisolutions.com" target="_blank"> <img :src="QuariThumbnail" class="card-img-top" alt="Quari Thumbnail"> </a>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title" style="text-align: ;">Quari Web</h5>
         <p class="card-text" style="text-align: left;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
     </div>
+    
   </div>
   <div class="col">
     <div class="card">
-      <img src="" class="card-img-top" alt="">
+      <img :src="GFCimage" class="card-img-top" alt="">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text" style="text-align: left;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -82,8 +83,8 @@
                 <div class="row">
                   <div class="col-6">
                     <h1> Contact. </h1>
-                    <a href="mailto:kojokumi16.kk@gmail.com">kojokumi16.kk@gmail.com</a>
-                    <a href="https://github.com/kojoawesome" target="_blank">Github</a>
+                    <a href="mailto:kojokumi16.kk@gmail.com">📧 kojokumi16.kk@gmail.com</a>
+                    <a href="https://github.com/kojoawesome" target="_blank"> 👩‍💻 Github</a>
                   </div>
                 </div>
                 
@@ -97,6 +98,7 @@ export default {
     return {
       Image: require('@/assets/pp.png'),
       QuariThumbnail: require('@/assets/Quarilogo.jpg'),
+      GFCimage: require('@/assets/GCF.png'),
     }
   },
   
@@ -173,8 +175,10 @@ export default {
   text-decoration: none;
   display: block;
   color: #474306;
+  padding-bottom: 10px;
 }
 
+.card:hover{box-shadow: 1px 1px 20px #dddc8b ;}
 
 
 </style>
