@@ -133,7 +133,7 @@ export default {
 .about h1, .Project h1, .contact h1{
     font-weight: bold;
     font-size: 70pt;
-    color:#F7F197 ;
+    color:#474306;
 }
 
 .about p, .Project p {
