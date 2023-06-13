@@ -59,6 +59,15 @@
       </div>
     </div>
   </div>
+    <div class="col">
+    <div class="card">
+      <a href="https://astounding-crostata-87ed3b.netlify.app/" target="_blank"><img :src="Dadjoke" class="card-img-top" alt=""></a>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Simple app that generates Dad Jokes</p>
+      </div>
+    </div>
+  </div>
 </div>    
     </div>
 
@@ -82,6 +91,7 @@ export default {
       Image: require('@/assets/pp.png'),
       QuariThumbnail: require('@/assets/Quarilogo.jpg'),
       GFCimage: require('@/assets/GCF.png'),
+      Dadjoke: require('@/assets/Dadjoke.png')
     }
   },
   
