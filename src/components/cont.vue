@@ -54,7 +54,7 @@
     <div class="card">
       <a href="https://drive.google.com/file/d/1Hd8WquY8-qHuQRLOLYu7gyDlyLQjmHdG/view?usp=sharing" target="_blank"><img :src="GFCimage" class="card-img-top" alt=""></a>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Give For Change Foundation</h5>
         <p class="card-text" style="text-align: left;">Brand identity developed for a philanthropic organization aimed to help people in need.</p>
       </div>
     </div>
@@ -63,7 +63,7 @@
     <div class="card">
       <a href="https://astounding-crostata-87ed3b.netlify.app/" target="_blank"><img :src="Dadjoke" class="card-img-top" alt=""></a>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Dad Jokes</h5>
         <p class="card-text">Simple app that generates Dad Jokes</p>
       </div>
     </div>
